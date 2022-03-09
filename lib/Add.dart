@@ -2,7 +2,8 @@
 import 'package:flash/flash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/TextInput.dart';
-import 'package:flutter_application_1/authentification.dart';
+const myRed = Color.fromARGB(255, 3, 11, 122);
+const myRed2 = Color.fromARGB(255, 3, 14, 158);
 
 class AddData extends StatefulWidget {
   @override

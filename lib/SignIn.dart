@@ -10,12 +10,12 @@ const myRed2 = Color.fromARGB(255, 3, 14, 158);
   late GlobalKey _formKey;
 
 //const LinearGradient myGradiant =
-class authentificate extends StatefulWidget {
+class SignIn extends StatefulWidget {
   @override
-  _authentificateState createState() => _authentificateState();
+  _SignInState createState() => _SignInState();
 }
 
-class _authentificateState extends State<authentificate> { //traitement de processus "connexion" ou "authentificate"
+class _SignInState extends State<SignIn> { //traitement de processus "connexion" ou "SignIn"
   TextEditingController nameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
  

@@ -3,7 +3,7 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flash/flash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/TextInput.dart';
-import 'package:flutter_application_1/authentification.dart';
+import 'package:flutter_application_1/SignIn.dart';
 
 class RemoveData extends StatefulWidget {
   @override

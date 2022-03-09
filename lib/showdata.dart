@@ -13,7 +13,21 @@ class _ShowDataState extends State<ShowData> {
   @override
   Widget build(BuildContext context) {
   
-    return Container();
+   
+        return Scaffold(
+           appBar: AppBar(
+                    backgroundColor:Color.fromARGB(255, 3, 11, 122),
+                     centerTitle: true,
+                        title:  Column( 
+                                  children : [
+                                   Text("Show Data" ,  style: TextStyle(color: Colors.white),)
+                                  ]
+
+                          )
+                   ),
+                    backgroundColor:Color.fromARGB(255, 3, 11, 122),
+                    body : Container(),
+        );
   }
 }
 class ClassementCard extends StatelessWidget {

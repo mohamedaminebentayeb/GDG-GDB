@@ -2,8 +2,7 @@
 import 'dart:io';
 
 import 'package:flash/flash.dart';
-import 'package:flutter_application_1/authentification.dart';
-import 'package:path/path.dart';
+import 'package:flutter_application_1/SignIn.dart';
 
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
@@ -70,6 +69,11 @@ class _UploadFileState extends State<UploadFile> {
                        
                              Center(
                                   child : ElevatedButton(
+                                    style: ElevatedButton.styleFrom(
+                                                      primary: Color.fromARGB(255, 240, 159, 11),
+                                                         minimumSize: const Size(200, 50),
+                                                         maximumSize: const Size(200, 50),
+                                    ),
                                     onPressed: ()async{
                                   FilePickerResult? result = await FilePicker.platform.pickFiles(
                                            type: FileType.custom,
