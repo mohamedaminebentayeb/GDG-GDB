@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
-import 'package:firebase_core/firebase_core.dart' as firebase_core;
+
 import 'package:flutter_application_1/loading_page.dart';
 class ShowImageName extends StatefulWidget {
   const ShowImageName({ Key? key }) : super(key: key);
@@ -29,7 +28,7 @@ class _ShowImageNameState extends State<ShowImageName> {
                  child: Column(
                    mainAxisAlignment: MainAxisAlignment.center,
                    children: [
-                     FutureBuilder(
+                   /*  FutureBuilder(
                                 future: listExample(),
                                     builder: (BuildContext context,
                                      AsyncSnapshot<firebase_storage.ListResult> snapshot) {
@@ -71,7 +70,7 @@ class _ShowImageNameState extends State<ShowImageName> {
 
                                   }
 
-                     ),
+                     ),*/
     
                    ],
 

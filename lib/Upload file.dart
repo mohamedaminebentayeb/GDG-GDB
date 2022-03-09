@@ -6,9 +6,7 @@ import 'package:flutter_application_1/authentification.dart';
 import 'package:path/path.dart';
 
 import 'package:flutter/material.dart';
-import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 import 'package:file_picker/file_picker.dart';
-import 'package:firebase_core/firebase_core.dart' as firebase_core;
 class UploadFile extends StatefulWidget {
   const UploadFile({ Key? key }) : super(key: key);
 
