@@ -30,7 +30,7 @@ void main()async  {
       //primarySwatch: calendarColor,
 
     ),
-    initialRoute: '/home', // initialisation de la route
+    initialRoute: '/splashscreen', // initialisation de la route
     routes: {
       
   '/inscription': (context) =>
